@@ -43,6 +43,8 @@ The project uses TypeScript on both the frontend and backend for better type saf
 To begin, clone the repository to your local machine and navigate into the project directory:
 ```bash
 git clone https://github.com/EiriniRouchota/form-widget-editor.git
+```
+```bash
 cd form-widget-editor 
 ```
 ### 2. Backend Setup
