@@ -1,0 +1,51 @@
+<div class="preview">
+  <h1 [style.fontSize]="settings.fontSize">{{ settings.title }}</h1>
+  <p [style.fontSize]="settings.fontSize">{{ settings.subtitle }}</p>
+
+  <form>
+    <div class="form-group">
+      <label for="firstName">
+        First Name
+        <span *ngIf="settings.firstNameRequired" style="color: red">*</span>
+        <!-- Show asterisk if required -->
+      </label>
+      <input
+        type="text"
+        class="form-control"
+        id="firstName"
+        [attr.required]="settings.firstNameRequired ? true : null"
+      />
+    </div>
+    <!-- Last Name Field -->
+    <div class="form-group">
+      <label for="lastName">
+        Last Name
+        <span *ngIf="settings.lastNameRequired" style="color: red">*</span>
+        <!-- Show asterisk if required -->
+      </label>
+      <input
+        type="text"
+        class="form-control"
+        id="lastName"
+        [attr.required]="settings.lastNameRequired ? true : null"
+      />
+    </div>
+    <!-- Email Field (Always Required) -->
+    <div class="form-group">
+      <label for="email">
+        Email
+        <span style="color: red">*</span>
+        <!-- Always required -->
+      </label>
+      <input type="email" class="form-control" id="email" required />
+    </div>
+
+    <button
+      type="submit"
+      class="btn custom-button-spacing"
+      [style.backgroundColor]="settings.buttonColor"
+    >
+      {{ settings.submitButtonText }}
+    </button>
+  </form>
+</div>

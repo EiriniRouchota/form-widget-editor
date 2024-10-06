@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar Component -->
+    <div class="col-md-4">
+      <app-sidebar (settingsChanged)="onSettingsChanged($event)"></app-sidebar>
+    </div>
+
+    <!-- Preview Component -->
+    <div class="col-md-8">
+      <app-preview [settings]="formSettings"></app-preview>
+    </div>
+  </div>
+</div>
