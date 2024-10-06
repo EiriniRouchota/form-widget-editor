@@ -20,6 +20,8 @@ Form Widget Editor is a web-based tool that allows users to create and manage fo
 
 **Frontend URL**: [https://y-akglrmz5s-eirinis-projects.vercel.app/](https://y-akglrmz5s-eirinis-projects.vercel.app/)
 
+The frontend of the application is deployed on **Vercel**. For full functionality of the application, including backend interactions, it is recommended to follow the instructions below to set up locally. 
+
 ### 2. CSS Framework
 
 The frontend utilizes **Bootstrap** to create a responsive and clean UI. This framework ensures that the application looks great on all device sizes without much custom styling.
@@ -43,6 +45,8 @@ The project uses TypeScript on both the frontend and backend for better type saf
 To begin, clone the repository to your local machine and navigate into the project directory:
 ```bash
 git clone https://github.com/EiriniRouchota/form-widget-editor.git
+```
+```bash
 cd form-widget-editor 
 ```
 ### 2. Backend Setup
@@ -51,7 +55,12 @@ cd form-widget-editor
 cd backend/form-widget-api
 
 ```
- 2. Start the backend server:
+ 2. Install backend dependencies:
+```bash
+npm install
+```
+
+ 3. Start the backend server:
 ```bash
 npm start
 ```
@@ -66,7 +75,7 @@ The backend server will start on ```http://localhost:3000 ``` and connect to Mon
 
  1. Open a new terminal and navigate to the frontend folder:
 ```bash
-cd frontend/form-widget-editor
+cd form-widget-editor/frontend/form-widget-editor
 ```
 
 2. Install frontend dependencies:
