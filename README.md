@@ -89,4 +89,6 @@ ng serve
 
 The Angular development server will start on `http://localhost:4200`
 
-You should now have both the backend and frontend running locally. Open your browser and navigate to `http://localhost:4200` to start using the Form Widget Editor!
+You should now have both the backend and frontend running locally. 
+
+Open your browser and navigate to `http://localhost:4200` to start using the Form Widget Editor!
