@@ -20,6 +20,8 @@ Form Widget Editor is a web-based tool that allows users to create and manage fo
 
 **Frontend URL**: [https://y-akglrmz5s-eirinis-projects.vercel.app/](https://y-akglrmz5s-eirinis-projects.vercel.app/)
 
+The frontend of the application is deployed on **Vercel**. For full functionality of the application, including backend interactions, it is recommended to follow the instructions below to set up locally. 
+
 ### 2. CSS Framework
 
 The frontend utilizes **Bootstrap** to create a responsive and clean UI. This framework ensures that the application looks great on all device sizes without much custom styling.
