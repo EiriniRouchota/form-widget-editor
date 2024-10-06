@@ -73,7 +73,7 @@ The backend server will start on ```http://localhost:3000 ``` and connect to Mon
 
  1. Open a new terminal and navigate to the frontend folder:
 ```bash
-cd frontend/form-widget-editor
+cd form-widget-editor/frontend/form-widget-editor
 ```
 
 2. Install frontend dependencies:
