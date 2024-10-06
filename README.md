@@ -53,7 +53,12 @@ cd form-widget-editor
 cd backend/form-widget-api
 
 ```
- 2. Start the backend server:
+ 2. Install backend dependencies:
+```bash
+npm install
+```
+
+ 3. Start the backend server:
 ```bash
 npm start
 ```
