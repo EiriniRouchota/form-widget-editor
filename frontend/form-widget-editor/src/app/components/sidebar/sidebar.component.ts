@@ -22,6 +22,8 @@ export class SidebarComponent {
   // Toggle variables for controlling required status
   firstNameRequired: boolean = true; // Default to required
   lastNameRequired: boolean = true; // Default to required
+  successMessage: string | null = null;
+  errorMessage: string | null = null;
 
   // Toggle color picker visibility
   toggleColorPicker() {
@@ -58,9 +60,13 @@ export class SidebarComponent {
     this.formWidgetService.saveFormWidget(settings).subscribe(
       (response) => {
         console.log('Form widget saved successfully', response);
+        this.successMessage = 'Form widget saved successfully!';
+        this.errorMessage = null; // Reset error message
       },
       (error) => {
         console.error('Error saving form widget', error);
+        this.errorMessage = 'Error saving form widget. Please try again.';
+        this.successMessage = null; // Reset success message
       }
     );
   }

@@ -1,6 +1,14 @@
 <div class="sidebar p-3 border">
   <h3 class="mb-4">Customize Form</h3>
 
+  <div *ngIf="successMessage" class="alert alert-success">
+    {{ successMessage }}
+  </div>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+
   <!-- Title Customization -->
   <div class="form-group mb-3">
     <label for="formTitle" class="form-label">Form Title</label>
