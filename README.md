@@ -3,6 +3,18 @@
 ## Description
 Form Widget Editor is a web-based tool that allows users to create and manage form widgets dynamically. The project consists of a backend API built with Node.js, Express, and MongoDB, and a frontend application built with Angular.
 
+## Tech Stack
+
+### Frontend
+- **Angular**: For building the user interface and managing form editing features.
+- **TypeScript**: Used for type safety and better development experience.
+  
+### Backend
+- **Node.js**: JavaScript runtime for building scalable backend services.
+- **Express**: A minimal web framework for handling HTTP requests.
+- **MongoDB**: A NoSQL database for storing form widget data.
+- **Mongoose**: ODM (Object Data Modeling) for MongoDB, used to interact with the database.
+
 ## Prerequisites
 - **Node.js** (>= 14.x)
 - **npm** (Node Package Manager)
