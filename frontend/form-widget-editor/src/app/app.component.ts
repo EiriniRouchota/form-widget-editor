@@ -21,6 +21,7 @@ import { ColorPickerComponent } from 'ngx-color-picker';
 })
 export class AppComponent {
   formSettings = {};
+  title: any;
 
   onSettingsChanged(newSettings: any) {
     this.formSettings = newSettings;
